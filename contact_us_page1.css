@@ -1,0 +1,64 @@
+.background {
+    position: relative;
+    top: 350px;
+ }
+
+.container {
+    position: relative;
+    display: inline-block;
+    flex-direction: row-reverse;
+    
+}
+.container .menu {
+    position: absolute;
+    background-color: white;
+    top: 100px;
+    left: 280px;
+    height: 350px;
+    width: 300px;
+    box-shadow: 10px 10px 10px 10px;
+}
+.container .header h2 {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+.name input {
+    height: 25px;
+    width: 200px;
+    opacity: 35%;
+    border: none;
+    margin: 10px;
+}
+.email input {
+    height: 25px;
+    width: 200px;
+    opacity: 35%;
+    border: none;
+    margin: 10px;
+    
+}
+.message input {
+    opacity: 35%;
+    border: none;
+    height: 70px;
+    width: 200px;
+    margin: 10px;
+    
+}
+.submit {
+    display: flex;
+    justify-content: center;  
+}
+.submit button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+    
+}
+
+
+.container .image img {
+    margin-left: 500px;
+}
